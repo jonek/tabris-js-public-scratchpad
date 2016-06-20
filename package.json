@@ -1,0 +1,8 @@
+{
+  "title": "Public Scratchpads in Tabris Connect",
+  "description": "Demo of public Scratchpads in Tabris Connect",
+  "main": "src/app.js",
+  "dependencies": {
+    "tabris": "^1.8.0"
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.eclipsesource.tabris.file.browser" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PublicScratchpad</name>
+    <description>
+        A demo to show how public scratchpads in Tabris Connect could be used in the developer app.
+    </description>
+    <author email="tabris@eclipsesource.com" href="http://tabrisjs.com">
+        Tabris.js Team
+    </author>
+    <preference name="EnableDeveloperConsole" value="true" />
+    <plugin name="phonegap-plugin-barcodescanner" />
+</widget>
