@@ -1,6 +1,6 @@
 var PluginPage = require("./PluginPage");
 
-var page = new PluginPage("BarcodeScanner", "phonegap-plugin-barcodescanner", function(parent) {
+var page = new PluginPage("BarcodeScanner", "cordova-plugin-barcodescanner", function(parent) {
 
   new tabris.Button({
     layoutData: {left: 10, top: 10, right: 10},
@@ -22,3 +22,5 @@ var page = new PluginPage("BarcodeScanner", "phonegap-plugin-barcodescanner", fu
     });
   }
 });
+
+page.create().open();
